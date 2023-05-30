@@ -1,12 +1,79 @@
+.square {
+  width: 180px;
+  height: 200px;
+  justify-content: center;
+  font-size: 130px;
+  font-weight: bold;
+  background-color: #5d5853;
+  color: rgb(182, 182, 182);
+  border: none;
+}
+body {
+  background-color: #5d5853;
+}
+.bottom {
+  border-bottom: 1px solid rgb(207, 196, 196);
+}
+.square:nth-child(3n + 1) {
+  border-right: 1px solid rgb(207, 196, 196);
+}
+.square:nth-child(3n + 2) {
+  border-right: 1px solid rgb(207, 196, 196);
+}
+.board-row {
+  width: 540px;
+}
+.status {
+  font-size: 37px;
+  font-weight: 700;
+  color: #e9ecef;
+}
+.reset {
+  font-size: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.up {
+  margin-top: 20px;
+}
+label {
+  padding-right: 10px;
+}
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-container {
+  margin-top: 30%;
+  margin-left: 33%;
+  font-size: 15px;
+}
 
-/* 
+.letraX{
+  font-size: 30px;
+  color: yellow;
+  font-weight: bold;
+  
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.botonX{
+  margin-left: 25%;
+  width: 60px;
+  height: 60px;
+}
 
-*/
+.letraO{
+  font-size: 30px;
+  color: blue;
+  font-weight: bold;
+  
+
+  
+}
+
+.botonO{
+  margin-left: 2%;
+  width: 60px;
+  height: 60px;
+  
+}
